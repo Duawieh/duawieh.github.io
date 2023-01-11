@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400&display=swap');
+
 body {
     background-color: #131824;  /* 背景色：燕颔蓝 */
     color: #ffffff;             /* 字体色：纯白 */
+    margin: 0 3%;
 }
 
 .roster_class {
@@ -18,35 +21,11 @@ body {
 #WelcomeDivision {
     font-size: 16px;
     text-align: center;
-    left: 50%;
-    top: 45%;
-
-    margin: 45%, 50%;
+    height: 60%;
 }
 
-#Title_HELLO {
-    font-size: 120px;
-    font-family: "IBM Plex Mono", sans-serif;
-
-    margin: 0px;
-}
-
-#DuawiehLOGO {
-    background-color: wheat;
-    width: 100%;
-    height: 0px;
-    padding-bottom: 100%;
-    border-radius: 50%;
-
+#FinalDivision {
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#FinalGreeting {
-    text-align: center;
-    font-size: 72px;
-    font-family: "Ink Free", serif;
+    font-size: 0px;
+    font-family: "Mr Dafoe", serif;
 }
