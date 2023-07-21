@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+
+<html lang="EN">
+
     <head>
         <meta charset="utf-8">
-        <title>Duawieh 的主页</title>
+        <title>Duawieh Space</title>
         <link rel="stylesheet" href="./styles/index_style.css" type="text/css"/>
-
-        <!-- 引用 IBM Plex Mono 字体 -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400&display=swap" rel="stylesheet">
-        <!-- 引用 Mr Dafoe 字体 -->
-        <link href="https://fonts.googlefonts.cn/css?family=Mr+Dafoe" rel="stylesheet">
     </head>
 
+
+
     <body>
-        <div id="WelcomeDivision">
-            <p style="font-size: 120px; font-family: 'IBM Plex Mono', sans-serif; margin: 0px;">
-                HELLO
-            </p>
-            <p style="font-size: 16px; font-family: sans-serif; margin: 0px;">
-                I'm Duawieh. Welcome to my creation world.
-            </p>
-            <hr>
-        </div>
+        <!-- 底板区域 -->
+        <img id="homepageBackgroundIcon" src="./images/Logo_HomepageBackground.png" alt="image loading failed">
         
-
-        <div id="Projects">
-            <div class="noticeBackGround">
-                <p class="noticeText">暂无游戏作品</p>
+        <div>
+            <!-- 顶部导航栏 -->
+            <div class="ShowCase" id="topBar">
+                <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./images/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"></a>
+                <button class="TopButton" title="To learn more about me and my creation.">About</button>
+                <button class="TopButton" title="To read my blogs.">Blogs</button>
+                <button class="TopButton" title="To visit and download my projects.">Projects</button>
+                <button class="TopButton" title="To turn to home page.">Home</button>
             </div>
-            <!-- <div class="noticeBackGround">
-                <p class="noticeText">About Me</p>
-            </div> -->
-        </div>
-
-        <div id="FinalDivision">
-            <img role="text" src="./images/DuawiehLOGO.png" width="256px">
-            <p style="margin: 0px; font-size: 96px;">Have a nice day!</p>
+        
+            
         </div>
     </body>
 
+
+
     <script src="./scripts/index_js.js"></script>
+
 </html>
