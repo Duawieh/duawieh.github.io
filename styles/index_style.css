@@ -11,9 +11,38 @@ body {
     width: 100%;
 }
 
+.HomepageShowcaseCover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.HomepageShowcaseTitle {
+    position: absolute;
+    bottom: 0;
+
+    background: linear-gradient(0deg, #000000bb 80%, #00000000);
+    font-family: 'ZCOOLKuaiLe';
+    color: #9060ff;
+}
+
 .ShowCase {
+    z-index: 1;
     background-color: #2b2b2b;
     box-shadow: 9px 1px 10px #000000;
+}
+
+.ShowcaseTitle {
+    font-size: 120%;
+    padding: 0;
+    margin: 1%;
+}
+
+.ShowcaseSubtitle {
+    font-size: 80%;
+    padding: 0;
+    margin: 2%;
 }
 
 .TopButton {
@@ -34,11 +63,96 @@ body {
 }
 
 #homepageBackgroundIcon {
+    position: absolute;
+    z-index: 0;
     top: 0px;
     width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#homepageCenterShowcase {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 40%;
+    height: 40%;
+}
+
+#homepageLeftShowcase {
+    position: absolute;
+    left: 2%;
+    top: 37%;
+    width: 26%;
+    height: 26%;
+}
+
+#homepageRightShowcase {
+    position: absolute;
+    right: 2%;
+    top: 37%;
+    width: 26%;
+    height: 26%;
+}
+
+#mainAnimClock0 {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+
+    background-color: #9060ff;
+}
+
+#mainAnimClock1 {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+
+    background-color: #55ffbbdd;
+}
+
+#mainAnimClock2 {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+
+    background-color: #55ffbb88;
+}
+
+#mainAnimClock3 {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+
+    background-color: #55ffbb55;
 }
 
 #topBar {
+    z-index: 998244353;
     position: fixed;
     top: 0px;
     left: 0px;

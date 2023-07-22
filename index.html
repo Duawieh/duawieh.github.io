@@ -10,11 +10,19 @@
 
 
 
+    <!-- <body onclick="anyclick()"> -->
     <body>
         <!-- 底板区域 -->
         <img id="homepageBackgroundIcon" src="./images/Logo_HomepageBackground.png" alt="image loading failed">
-        
 
+
+        <!-- 动画基准钟 -->
+        <!-- <div id="mainAnimClock3"></div>
+        <div id="mainAnimClock2"></div>
+        <div id="mainAnimClock1"></div>
+        <div id="mainAnimClock0"></div> -->
+
+        
         <!-- 顶部导航栏 -->
         <div class="ShowCase" id="topBar">
             <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./images/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/></a>
@@ -23,10 +31,50 @@
             <button class="TopButton" onclick="topButtonClick(2)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
             <button class="TopButton" onclick="topButtonClick(1)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button>
         </div>
+
+
+        <!-- 首页展示区 -->
+        <div>
+            <!-- 左侧展示板 -->
+            <div class="ShowCase" id="homepageLeftShowcase">
+                <img class="HomepageShowcaseCover" src="./contents/home/showcase2/cover.png"/>
+                <div class="HomepageShowcaseTitle" onmouseenter="moveout_showcasetitle(this)" onmouseleave="movein_showcasetitle(this)">
+                    <p class="ShowcaseTitle">ShowCase2</p>
+                    <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
+                </div>
+            </div>
+
+            <!-- 右侧展示板 -->
+            <div class="ShowCase" id="homepageRightShowcase">
+                <img class="HomepageShowcaseCover" src="./contents/home/showcase3/cover.png"/>
+            </div>
+
+            <!-- 中央展示板 -->
+            <div class="ShowCase" id="homepageCenterShowcase" onmouseenter="moveout_showcasetitle(1)" onmouseleave="movein_showcasetitle(1)">
+                <img class="HomepageShowcaseCover" src="./contents/home/showcase1/cover.png"/>
+                <div class="HomepageShowcaseTitle" id="HomepageCenterShowcaseTitle">
+                    <p class="ShowcaseTitle">ShowCase1</p>
+                    <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- 项目页展区 -->
+        <div></div>
+        
+        
+        <!-- 博客页展区 -->
+        <div></div>
+        
+        
+        <!-- 关于作者页 -->
+        <div></div>
     </body>
-
-
-
-    <script src="./scripts/button_js.js"></script>
-
+    
+    
+    
+    <script src="./scripts/button.js"></script>
+    <script src="./scripts/home/anim_showcase.js"></script>
+    
 </html>
