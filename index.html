@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="EN">
+<html lang="zh-CN">
 
     <head>
         <meta charset="utf-8">
@@ -14,22 +14,19 @@
         <!-- 底板区域 -->
         <img id="homepageBackgroundIcon" src="./images/Logo_HomepageBackground.png" alt="image loading failed">
         
-        <div>
-            <!-- 顶部导航栏 -->
-            <div class="ShowCase" id="topBar">
-                <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./images/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"></a>
-                <button class="TopButton" title="To learn more about me and my creation.">About</button>
-                <button class="TopButton" title="To read my blogs.">Blogs</button>
-                <button class="TopButton" title="To visit and download my projects.">Projects</button>
-                <button class="TopButton" title="To turn to home page.">Home</button>
-            </div>
-        
-            
+
+        <!-- 顶部导航栏 -->
+        <div class="ShowCase" id="topBar">
+            <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./images/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/></a>
+            <button class="TopButton" onclick="topButtonClick(4)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To learn more about me and my creation.">关于</button>
+            <button class="TopButton" onclick="topButtonClick(3)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To read my blogs.">博客</button>
+            <button class="TopButton" onclick="topButtonClick(2)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
+            <button class="TopButton" onclick="topButtonClick(1)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button>
         </div>
     </body>
 
 
 
-    <script src="./scripts/index_js.js"></script>
+    <script src="./scripts/button_js.js"></script>
 
 </html>

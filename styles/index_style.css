@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400&display=swap');
+@font-face {
+    font-family: ZCOOLKuaiLe;
+    src: url("../fonts/ZCOOLKuaiLe-Regular.ttf");
+}
 
 body {
-    font-size: 0px;
-
     background-color: #2b2b2b;  /* 背景色 */
-    color: #55ffbb;             /* 点缀色 */
-    color: #9060ff;             /* 字体色 */
-    
+
     margin: 0px;
     width: 100%;
 }
@@ -18,14 +18,18 @@ body {
 
 .TopButton {
     background-color: #00000000;
+    font-family: 'ZCOOLKuaiLe';
 
-    color: #9060ffff;
+    color: #9060ff;
     font-size: 24px;
 
     /* 浮动：向右对齐 */
     float: right;
 
-    margin: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-style: none;
 }
 
@@ -35,7 +39,7 @@ body {
 }
 
 #topBar {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -46,4 +50,5 @@ body {
     height: 50px;
 
     padding-left: 1%;
+    padding-right: 1%;
 }
