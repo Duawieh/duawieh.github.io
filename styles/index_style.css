@@ -95,62 +95,6 @@ body {
     height: 26%;
 }
 
-#mainAnimClock0 {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-
-    width: 6px;
-    height: 6px;
-    margin: 0;
-    padding: 0;
-    border-radius: 3px;
-
-    background-color: #9060ff;
-}
-
-#mainAnimClock1 {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-
-    width: 6px;
-    height: 6px;
-    margin: 0;
-    padding: 0;
-    border-radius: 3px;
-
-    background-color: #55ffbbdd;
-}
-
-#mainAnimClock2 {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-
-    width: 6px;
-    height: 6px;
-    margin: 0;
-    padding: 0;
-    border-radius: 3px;
-
-    background-color: #55ffbb88;
-}
-
-#mainAnimClock3 {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-
-    width: 6px;
-    height: 6px;
-    margin: 0;
-    padding: 0;
-    border-radius: 3px;
-
-    background-color: #55ffbb55;
-}
-
 #topBar {
     z-index: 998244353;
     position: fixed;
