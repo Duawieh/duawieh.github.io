@@ -36,17 +36,21 @@
         <!-- 首页展示区 -->
         <div>
             <!-- 左侧展示板 -->
-            <div class="ShowCase" id="homepageLeftShowcase">
+            <div class="ShowCase" id="homepageLeftShowcase" onmouseenter="moveout_showcasetitle(2)" onmouseleave="movein_showcasetitle(2)">
                 <img class="HomepageShowcaseCover" src="./contents/home/showcase2/cover.png"/>
-                <div class="HomepageShowcaseTitle" onmouseenter="moveout_showcasetitle(this)" onmouseleave="movein_showcasetitle(this)">
+                <div class="HomepageShowcaseTitle" id="homepageLeftShowcaseTitle">
                     <p class="ShowcaseTitle">ShowCase2</p>
                     <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
                 </div>
             </div>
 
             <!-- 右侧展示板 -->
-            <div class="ShowCase" id="homepageRightShowcase">
+            <div class="ShowCase" id="homepageRightShowcase" onmouseenter="moveout_showcasetitle(3)" onmouseleave="movein_showcasetitle(3)">
                 <img class="HomepageShowcaseCover" src="./contents/home/showcase3/cover.png"/>
+                <div class="HomepageShowcaseTitle" id="homepageRightShowcaseTitle">
+                    <p class="ShowcaseTitle">ShowCase3</p>
+                    <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
+                </div>
             </div>
 
             <!-- 中央展示板 -->
