@@ -7,7 +7,6 @@ function movein_showcasetitle(cur_showcase) {
         case 2 : cur_obj = document.getElementById("homepageLeftShowcaseTitle"); break;
         case 3 : cur_obj = document.getElementById("homepageRightShowcaseTitle"); break;
     }
-    console.log(cur_obj.id);
     requestAnimationFrame(anim_movein_showcasetitle);
 }
 
@@ -17,7 +16,6 @@ function moveout_showcasetitle(cur_showcase) {
         case 2 : cur_obj = document.getElementById("homepageLeftShowcaseTitle"); break;
         case 3 : cur_obj = document.getElementById("homepageRightShowcaseTitle"); break;
     }
-    console.log(cur_obj.id);
     requestAnimationFrame(anim_moveout_showcasetitle);
 }
 
@@ -34,8 +32,9 @@ function anim_movein_showcasetitle(_t) {
 
 function anim_moveout_showcasetitle(_t) {
     let delta_t = performance.now() - _t;
+    let _h = cur_obj.style.height;
     _pos -= delta_t;
-    if (cur_obj.style.top > 0) {
+    if (cur_obj.style.bottom + _h > 0) {
         cur_obj.style.top = _pos + 'px';
         requestAnimationFrame(anim_moveout_showcasetitle);
         return;
