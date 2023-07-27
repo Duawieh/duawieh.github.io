@@ -30,6 +30,8 @@ body {
     z-index: 1;
     background-color: #2b2b2b;
     box-shadow: 9px 1px 10px #000000;
+    /* 展示窗内容超出部分裁剪 */
+    overflow: hidden;
 }
 
 .ShowcaseTitle {
