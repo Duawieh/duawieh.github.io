@@ -4,10 +4,10 @@
 
 ---
 
-### About the Site
+## About the Site
 
 Building with Github Pages, the site is built and deployed from this repository.
 
 As a static site, every refresh will happen after a latest push.
 
-**The theme is original developed by Duawieh.** You should title this when Fork this repo to biuld your site.
+**The theme is original developed by Duawieh.** You should title this when fork the repo to biuld your site.

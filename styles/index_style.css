@@ -21,6 +21,7 @@ body {
 
 /* 首页展示窗说明 */
 .HomepageShowcaseTitle {
+    width: 100%;
     background: linear-gradient(0deg, #000000bb 80%, #00000000);
     font-family: 'ZCOOLKuaiLe';
     color: #9060ff;
@@ -38,6 +39,8 @@ body {
     font-size: 120%;
     padding: 0;
     margin: 1%;
+    /* 文字描边 */
+    text-shadow: #55ffbb 1px 0 0, #55ffbb 0 1px 0, #55ffbb -1px 0 0, #55ffbb 0 -1px 0;
 }
 
 .ShowcaseSubtitle {
