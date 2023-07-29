@@ -62,6 +62,7 @@ function movein_showcasetitle(cur_showcase) {
     Obj_Left.pos = TYPE_TRANSLATE_StringWithPX_to_Number(getComputedStyle(Obj_Left.cur).bottom);
     inAnimActive[cur_showcase] = true;
     outAnimActive[cur_showcase] = false;
+    last_t = performance.now();
     requestAnimationFrame(anim_showcasetitle);
     return;
 }
@@ -72,6 +73,7 @@ function moveout_showcasetitle(cur_showcase) {
     Obj_Left.pos = TYPE_TRANSLATE_StringWithPX_to_Number(getComputedStyle(Obj_Left.cur).bottom);
     inAnimActive[cur_showcase] = false;
     outAnimActive[cur_showcase] = true;
+    last_t = performance.now();
     requestAnimationFrame(anim_showcasetitle);
     return;
 }

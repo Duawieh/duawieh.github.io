@@ -5,23 +5,25 @@
     <head>
         <meta charset="utf-8">
         <title>Duawieh Space</title>
-        <link rel="stylesheet" href="./styles/index_style.css" type="text/css"/>
+        <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
+        <link rel="stylesheet" href="./styles/home/showcase.css" type="text/css"/>
+        <link rel="stylesheet" href="./styles/home/aboutme.css" type="text/css"/>
     </head>
 
 
 
-    <body>
+    <body style="position: absolute; height: 100%;">
         <!-- 底板区域 -->
-        <img id="homepageBackgroundIcon" src="https://pic.imgdb.cn/item/64c3780e1ddac507cc32ef45.png" alt="image loading failed">
+        <img id="homepageBackgroundIcon" src="./config/Global_Icon/Logo_HomepageBackground.png" alt="image loading failed">
 
         
         <!-- 顶部导航栏 -->
         <div class="ShowCase" id="topBar">
-            <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./images/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/></a>
+            <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./config/Global_Icon/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/></a>
             <button class="TopButton" onclick="topButtonClick(4)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To learn more about me and my creation.">更多</button>
             <button class="TopButton" onclick="topButtonClick(3)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To read my blogs.">博客</button>
             <button class="TopButton" onclick="topButtonClick(2)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
-            <button class="TopButton" onclick="topButtonClick(1)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button>
+            <a href="https://duawieh.github.io/"><button class="TopButton" onclick="topButtonClick(1)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button></a>
         </div>
 
 
@@ -29,40 +31,56 @@
         <div>
             <!-- 左侧展示板 -->
             <div class="ShowCase" id="homepageLeftShowcase" onmouseenter="moveout_showcasetitle(2)" onmouseleave="movein_showcasetitle(2)">
-                <img class="HomepageShowcaseCover" src="./contents/home/showcase2/cover.png"/>
+                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase2/cover.png"/>
                 <div class="HomepageShowcaseTitle" id="homepageLeftShowcaseTitle">
-                    <p class="ShowcaseTitle">ShowCase2</p>
+                    <p class="ShowcaseTitle" id="homepageLeftShowcaseTitle_Title">获取标题失败【左侧展示板】</p>
                     <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
                 </div>
             </div>
 
             <!-- 右侧展示板 -->
             <div class="ShowCase" id="homepageRightShowcase" onmouseenter="moveout_showcasetitle(3)" onmouseleave="movein_showcasetitle(3)">
-                <img class="HomepageShowcaseCover" src="./contents/home/showcase3/cover.png"/>
+                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase3/cover.png"/>
                 <div class="HomepageShowcaseTitle" id="homepageRightShowcaseTitle">
-                    <p class="ShowcaseTitle">ShowCase3</p>
+                    <p class="ShowcaseTitle" id="homepageRightShowcaseTitle_Title">获取标题失败【右侧展示板】</p>
                     <p class="ShowcaseSubtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero dolorum architecto porro, tempore, repudiandae rerum facere nostrum ducimus, sit quaerat impedit illum. Recusandae quasi architecto explicabo ad quibusdam deserunt voluptatibus.</p>
                 </div>
             </div>
 
             <!-- 中央展示板 -->
             <div class="ShowCase" id="homepageCenterShowcase" onmouseenter="moveout_showcasetitle(1)" onmouseleave="movein_showcasetitle(1)">
-                <img class="HomepageShowcaseCover" src="./contents/home/showcase1/cover.png"/>
+                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase1/cover.png"/>
                 <div class="HomepageShowcaseTitle" id="homepageCenterShowcaseTitle">
-                    <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">Title not found!</p>
+                    <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">获取标题失败【中央展示板】</p>
                     <p class="ShowcaseSubtitle" id="homepageCenterShowcaseTitle_Subtitle">Error!Subtitle not found! 读取文件出错！简介无法正常显示！</p>
                 </div>
             </div>
         </div>
         
         
+        <!-- 模糊背景 效果层 -->
+        <div id="blurLayer"></div>
+
+
         <!-- 作者信息页 -->
-        <div></div>
+        <div class="ShowCase" id="homepageAboutShowcase">
+            <!-- 展示窗弹出按钮 -->
+            <div id="homepageAboutButtonAppear" onmouseenter="CONTROL_aboutpageAppearButton_Enabled()" onmouseleave="CONTROL_aboutpageAppearButton_Unabled()" onclick="CONTROL_aboutpageAppear()">
+                <img id="homepageAboutButtonAppear_Enabled" src="styles_images/homepageAboutButtonAppear_Enabled.png"/>
+                <img id="homepageAboutButtonDisAppear_Enabled" src="styles_images/homepageAboutButtonAppear_Enabled_UpsideDown.png"/>
+                <img style="position: absolute; left: 50%; transform: translate(-50%, 0);" src="styles_images/homepageAboutButtonAppear.png"/>
+            </div>
+            
+            <hr color="#9060ff" style="position: relative; top: 50px;"/>
+
+            <img id="homepageAboutIconAvatar" src="./config/Global_Icon/Logo_Avatar.png"/>
+        </div>
     </body>
     
     
     
-    <script src="./scripts/topbuttons.js"></script>
-    <script src="./scripts/home/anim_showcase.js"></script>
+    <script src="./scripts/topbuttons.js" type="text/javascript"></script>
+    <script src="./scripts/home/anim_showcase.js" type="text/javascript"></script>
+    <script src="./scripts/home/anim_aboutpage.js"></script>
     
 </html>
