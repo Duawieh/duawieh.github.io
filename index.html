@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
         <link rel="stylesheet" href="./styles/home/showcase.css" type="text/css"/>
         <link rel="stylesheet" href="./styles/home/aboutme.css" type="text/css"/>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
 
 
@@ -19,11 +20,15 @@
         
         <!-- 顶部导航栏 -->
         <div class="ShowCase" id="topBar">
-            <a href="https://duawieh.github.io/"><img id="topBarIcon" src="./config/Global_Icon/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/></a>
-            <button class="TopButton" onclick="topButtonClick(4)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To learn more about me and my creation.">更多</button>
-            <button class="TopButton" onclick="topButtonClick(3)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To read my blogs.">博客</button>
-            <button class="TopButton" onclick="topButtonClick(2)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
-            <a href="https://duawieh.github.io/"><button class="TopButton" onclick="topButtonClick(1)" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button></a>
+            <a href="https://duawieh.github.io/">
+                <img id="topBarIcon" src="./config/Global_Icon/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/>
+            </a>
+            <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To learn more about me and my creation.">更多</button>
+            <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To read my blogs.">博客</button>
+            <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
+            <a href="https://duawieh.github.io/">
+                <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button>
+            </a>
         </div>
 
 
@@ -50,8 +55,11 @@
             <!-- 中央展示板 -->
             <div class="ShowCase" id="homepageCenterShowcase" onmouseenter="moveout_showcasetitle(1)" onmouseleave="movein_showcasetitle(1)">
                 <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase1/cover.png"/>
-                <div class="HomepageShowcaseTitle" id="homepageCenterShowcaseTitle">
-                    <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">获取标题失败【中央展示板】</p>
+                <div class="HomepageShowcaseTitle" id="homepageCenterShowcaseTitle" onmouseenter="loadXMLDoc()">
+                    <!-- <iframe class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title" src="./contents/homepageShowcase/showcase1/title.txt"></iframe> -->
+                    <!-- <input type="file" class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title"/> -->
+                    <div class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">获取标题失败【中央展示板】</div>
+                    <!-- <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">获取标题失败【中央展示板】</p> -->
                     <p class="ShowcaseSubtitle" id="homepageCenterShowcaseTitle_Subtitle">Error!Subtitle not found! 读取文件出错！简介无法正常显示！</p>
                 </div>
             </div>
@@ -80,7 +88,8 @@
     
     
     <script src="./scripts/topbuttons.js" type="text/javascript"></script>
+    <script src="./scripts/home/anim_aboutpage.js" type="text/javascript"></script>
     <script src="./scripts/home/anim_showcase.js" type="text/javascript"></script>
-    <script src="./scripts/home/anim_aboutpage.js"></script>
+    <script src="./scripts/home/file_showcase.js" type="text/javascript"></script>
     
 </html>
