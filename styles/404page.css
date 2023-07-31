@@ -20,7 +20,7 @@ body {
     color: #9060ff;
 
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -33,6 +33,13 @@ body {
     top: 10%;
     object-fit: fill;
     margin: 2%;
+}
+
+#subtext {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    text-align: center;
+    color: #9060ff;
 }
 
 #text {
