@@ -1,18 +1,15 @@
 [
     {
-        // 中央展示板
         "title": "【测试主题】中央展示板主题", 
         "subtitle": "【测试副主题】中央展示板副标题/简介缩略区域，测试文本", 
         "url": "duawieh.github.io/content/0000000000"
     },
     {
-        // 左侧展示板
         "title": "【测试主题】左侧展示板主题", 
         "subtitle": "【测试副主题】左侧展示板副标题/简介缩略区域，测试文本", 
         "url": "duawieh.github.io/content/0000000000"
     },
     {
-        // 右侧展示板
         "title": "【测试主题】右侧展示板主题", 
         "subtitle": "【测试副主题】右侧展示板副标题/简介缩略区域，测试文本", 
         "url": "duawieh.github.io/content/0000000000"
