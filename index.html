@@ -5,11 +5,13 @@
     <head>
         <meta charset="utf-8">
         <title>Duawieh Space</title>
-        <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
-        <link rel="stylesheet" href="./styles/home/showcase.css" type="text/css"/>
-        <link rel="stylesheet" href="./styles/home/aboutme.css" type="text/css"/>
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
     </head>
+    
+
+
+    <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
+    <link rel="stylesheet" href="./styles/home/showcase.css" type="text/css"/>
+    <link rel="stylesheet" href="./styles/home/aboutme.css" type="text/css"/>
 
 
 
@@ -36,28 +38,34 @@
         <div>
             <!-- 左侧展示板 -->
             <div class="ShowCase" id="homepageLeftShowcase" onmouseenter="moveout_showcasetitle(2)" onmouseleave="movein_showcasetitle(2)">
-                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase2/cover.png"/>
+                <a id="homepageLeftShowcase_Link">
+                    <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase2/cover.png"/>
+                </a>
                 <div class="HomepageShowcaseTitle" id="homepageLeftShowcaseTitle">
-                    <p class="ShowcaseTitle" id="homepageLeftShowcaseTitle_Title">获取标题失败【左侧展示板】</p>
-                    <p class="ShowcaseSubtitle" id="homepageLeftShowcaseTitle_Subtitle">Error!Subtitle not found! 读取文件出错！简介无法正常显示！</p>
+                    <p class="ShowcaseTitle" id="homepageLeftShowcaseTitle_Title">正在获取标题信息</p>
+                    <p class="ShowcaseSubtitle" id="homepageLeftShowcaseTitle_Subtitle">正在获取副标题信息，等待简介内容加载...</p>
                 </div>
             </div>
 
             <!-- 右侧展示板 -->
             <div class="ShowCase" id="homepageRightShowcase" onmouseenter="moveout_showcasetitle(3)" onmouseleave="movein_showcasetitle(3)">
-                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase3/cover.png"/>
+                <a id="homepageRightShowcase_Link">
+                    <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase3/cover.png"/>
+                </a>
                 <div class="HomepageShowcaseTitle" id="homepageRightShowcaseTitle">
-                    <p class="ShowcaseTitle" id="homepageRightShowcaseTitle_Title">获取标题失败【右侧展示板】</p>
-                    <p class="ShowcaseSubtitle" id="homepageRightShowcaseTitle_Subtitle">Error!Subtitle not found! 读取文件出错！简介无法正常显示！</p>
+                    <p class="ShowcaseTitle" id="homepageRightShowcaseTitle_Title">正在获取标题信息</p>
+                    <p class="ShowcaseSubtitle" id="homepageRightShowcaseTitle_Subtitle">正在获取副标题信息，等待简介内容加载...</p>
                 </div>
             </div>
 
             <!-- 中央展示板 -->
             <div class="ShowCase" id="homepageCenterShowcase" onmouseenter="moveout_showcasetitle(1)" onmouseleave="movein_showcasetitle(1)">
-                <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase1/cover.png"/>
+                <a id="homepageCenterShowcase_Link">
+                    <img class="HomepageShowcaseCover" src="./contents/homepageShowcase/showcase1/cover.png"/>
+                </a>
                 <div class="HomepageShowcaseTitle" id="homepageCenterShowcaseTitle">
-                    <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title">获取标题失败【中央展示板】</p>
-                    <p class="ShowcaseSubtitle" id="homepageCenterShowcaseTitle_Subtitle">Error!Subtitle not found! 读取文件出错！简介无法正常显示！</p>
+                    <p class="ShowcaseTitle" id="homepageCenterShowcaseTitle_Title" style="font-size: 150%;">正在获取标题信息</p>
+                    <p class="ShowcaseSubtitle" id="homepageCenterShowcaseTitle_Subtitle" style="font-size: 90%;">正在获取副标题信息，等待简介内容加载...</p>
                 </div>
             </div>
         </div>
@@ -79,14 +87,20 @@
             <hr color="#9060ff" style="position: relative; top: 50px;"/>
 
             <img id="homepageAboutIconAvatar" src="./config/Global_Icon/Logo_Avatar.png"/>
+            <div>
+                <p id="aboutpageProfile">
+                    简介加载发生错误！
+                </p>
+            </div>
         </div>
     </body>
     
-    
-    
+
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="./scripts/topbuttons.js" type="text/javascript"></script>
     <script src="./scripts/home/anim_aboutpage.js" type="text/javascript"></script>
     <script src="./scripts/home/anim_showcase.js" type="text/javascript"></script>
     <script src="./scripts/home/file_showcase.js" type="text/javascript"></script>
-    
+
 </html>
