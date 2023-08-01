@@ -3,16 +3,28 @@
     src: url("../fonts/ZCOOLKuaiLe-Regular.ttf");
 }
 
-.aboutpageTitle {
-    font-family: ZCOOLKuaiLe;
-    color: #9060ff;
-    font-size: larger;
-}
-
-.aboutpageInfo {
+.AboutpageInfo {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     color: #55ffbb;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.AboutpageLinkIcons {
+    background-color: #9060ff;
+    border-color: #55ffbb;
+    border-radius: 50%;
+    border-style: solid;
+
+    width: 5%;
+}
+
+.AboutpageTitle {
+    font-family: ZCOOLKuaiLe;
+    color: #9060ff;
+    font-size: larger;
+    margin-left: 2%;
 }
 
 #homepageAboutButtonAppear {
