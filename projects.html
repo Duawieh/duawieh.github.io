@@ -37,25 +37,40 @@
 
         <!-- 文章列表 -->
         <div id="listpageList">
-            <div class="ListpageShowcase">
-
-            </div>
+            <a href="https://duawieh.github.io/contents/testpage">
+                <div class="ListpageShowcase">
+                    <img class="ListpageShowcaseCover" src="./contents/homepageShowcase/showcase2.png" alt="图片加载错误"/>
+                    <div class="ListpageShowcaseTextcase">
+                        <p class="ListpageShowcaseTitle">Test Title</p>
+                        <p class="ListpageShowcaseSubtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nisi repellendus ipsam aperiam voluptates minima, debitis perspiciatis soluta, iure neque nostrum veritatis! Veritatis sunt officia cupiditate nemo delectus placeat accusamus!</p>
+                        <p class="ListpageShowcaseDate">xxxx.xx.xx | xx:xx</p>
+                        <p class="ListpageShowcaseTag_Title">Tags:</p>
+                        <p class="ListpageShowcaseTag">aaa, bbb, ccc</p>
+                    </div>
+                </div>
+            </a>
         </div>
 
 
-        <!-- 标签选项 -->
-        <div id="listpageTag">
+        <!-- 筛选选项 -->
+        <div id="listpageTagcase">
             <div class="ListpageShowcase" style="height: auto;">
                 <p class="ListpageLog">按标签检索：</p>
-                <input type="checkbox" class="ListpageCheckbox" name="ALL" checked/>
+                <div style="margin: 5%;">
+                    <button class="ListpageCheckbox" onclick="CTRL_tagCheck(this)" style="border-style: solid;">All_Tags</button>
+                </div>
             </div>
             <div class="ListpageShowcase" style="height: auto;">
-                <p class="ListpageLog" style="margin-bottom: 0px;">按名称搜索：</p>
-                <input type="search" id="listpageSearchbar" title="Type to search"/>
+                <p class="ListpageLog" style="margin-bottom: 0px;">按标题搜索：</p>
+                <input type="search" id="listpageSearchbar" title="Type to search" oninput="CTRL_search(this)"/>
             </div>
         </div>
     </body>
 
 
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="./scripts/topbuttons.js" type="text/javascript"></script>
+    <script src="./scripts/list/checkbox.js" type="text/javascript"></script>
 
 </html>

@@ -25,11 +25,6 @@
             "alt": "知乎"
         },
         {
-            "icon": "./config/Link_Icon/Logo_twitter.png",
-            "url": "https://twitter.com/Duawieh_Chaser",
-            "alt": "twitter"
-        },
-        {
             "icon": "./config/Link_Icon/Logo_afdian.png",
             "url": "https://afdian.net/a/duawieh",
             "alt": "爱发电"
