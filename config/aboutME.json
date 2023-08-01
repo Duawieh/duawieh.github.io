@@ -1,3 +1,35 @@
 {
-    
+    "Author": "Duawieh Chaser",
+    "E-mail": [
+        "DuawiehPublic@outlook.com"
+    ],
+    "link": [
+        {
+            "icon": "./config/Link_Icon/Logo_github.png",
+            "url": "https://github.com/Duawieh"
+        },
+        {
+            "icon": "./config/Link_Icon/Logo_bilibili.png",
+            "url": "https://space.bilibili.com/391569000"
+        },
+        {
+            "icon": "./config/Link_Icon/Logo_csdn.png",
+            "url": "https://blog.csdn.net/qq_42097628"
+        },
+        {
+            "icon": "./config/Link_Icon/Logo_zhihu.png",
+            "url": "https://www.zhihu.com/people/duawieh"
+        },
+        {
+            "icon": "./config/Link_Icon/Logo_twitter.png",
+            "url": "https://twitter.com/Duawieh_Chaser"
+        },
+        {
+            "icon": "./config/Link_Icon/Logo_afdian.png",
+            "url": "https://afdian.net/a/duawieh"
+        }
+    ],
+    "Profile": "你好！我是 Duawieh，你可以音译为图亚薇耶，或者直接叫我阿哲，这是我高中同学给我的称呼。<br/>我是一名喜欢在计算机上进行创作的学生，但是请注意，我从来都不是什么专业人士，目前的主业是学习/科研，而且本科专业也不是计算机类，所以请不要对我的技术水准有太高的要求。当然，如果您需要我提供一些答疑之类的帮助，可以联系我的其他社交平台账号或直接发邮件，我会尽可能地回答能力范围内的问题。",
+    "AboutTheSite": "欢迎访问 Duawieh Space，这是我的个人页面，其建立是为了代码开源、学术交流、作品发布、以及向访问者公开我在各个平台的账号主页等，并希望以此拉近创作者和鉴赏者、发布者和使用者之间的距离。<br/>但是这个网站的设计目的为只读访问，也就是说，在可预见的将来，它不会具有账号注册、交流沟通等功能。",
+    "AboutTheTheme": "这个网站是由 Duawieh 独立开发的开源站点。如果您也想使用这个网站主题，可以在 GitHub 上直接 Fork 这个仓库，并按照指导重新配置您的信息，如果喜欢我的页面主题，记得为我点亮一颗 Star。另外，在使用时，您应该在页面上与这句话相同的位置注明来源。"
 }
