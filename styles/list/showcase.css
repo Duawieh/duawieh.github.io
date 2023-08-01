@@ -1,0 +1,60 @@
+@font-face {
+    font-family: ZCOOLKuaiLe;
+    src: url("https//duawieh.github.io/styles_fonts/ZCOOLKuaiLe-Regular.ttf");
+}
+
+.ListpageCheckbox {
+    
+}
+
+.ListpageShowcase {
+    z-index: 1;
+    background-color: #2b2b2b;
+    box-shadow: 9px 1px 10px #000000;
+    /* 展示窗内容超出部分裁剪 */
+    overflow: hidden;
+
+    margin: 2%;
+    width: 96%;
+    height: 150px;
+}
+
+.ListpageLog {
+    font-family: ZCOOLKuaiLe;
+    font-size: large;
+    color: #9060ff;
+    margin: 5%;
+}
+
+.ListpageShowcaseTitle {
+
+}
+
+.ListpageShowcaseSubtitle {
+
+}
+
+#listpageList {
+    position: absolute; 
+    width: 70%; 
+    left: 0px;
+    top: 60px;
+}
+
+#listpageSearchbar {
+    background-color: #2b2b2b;
+    border-color: #9060ff;
+    border-style: solid;
+    border-radius: 5px;
+    color: #55ffbb;
+    margin: 5%;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#listpageTag {
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    top: 60px;
+}

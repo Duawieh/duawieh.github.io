@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Duawieh Space</title>
+    </head>
+
+
+
+    <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
+    <link rel="stylesheet" href="./styles/list/showcase.css" type="text/css"/>
+
+
+
+    <body style="position: absolute; height: 100%;">
+        <!-- 顶部导航栏 -->
+        <div class="ShowCase" id="topBar">
+            <a href="https://duawieh.github.io">
+                <img id="topBarIcon" src="./config/Global_Icon/Logo_TopBar.png" title="Welcome to Duawieh's Creation Space" alt="Icon loading failed"/>
+            </a>
+            <a href="https://duawieh.github.io/contents/infoPage">
+                <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To learn more about me and my creation.">更多</button>
+            </a>
+            <a href="https://duawieh.github.io/blogs">
+                <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To read my blogs.">博客</button>
+            </a>
+            <a href="https://duawieh.github.io/projects">
+                <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To visit and download my projects.">项目</button>
+            </a>
+            <a href="https://duawieh.github.io">
+                <button class="TopButton" onmouseover="mouseOverButton(this)" onmouseleave="mouseLeaveButton(this)" title="To turn to home page.">首页</button>
+            </a>
+        </div>
+
+
+        <!-- 文章列表 -->
+        <div id="listpageList">
+            <div class="ListpageShowcase">
+
+            </div>
+        </div>
+
+
+        <!-- 标签选项 -->
+        <div id="listpageTag">
+            <div class="ListpageShowcase" style="height: auto;">
+                <p class="ListpageLog">按标签检索：</p>
+                <input type="checkbox" class="ListpageCheckbox" name="ALL" checked/>
+            </div>
+            <div class="ListpageShowcase" style="height: auto;">
+                <p class="ListpageLog" style="margin-bottom: 0px;">按名称搜索：</p>
+                <input type="search" id="listpageSearchbar" title="Type to search"/>
+            </div>
+        </div>
+    </body>
+
+
+
+</html>

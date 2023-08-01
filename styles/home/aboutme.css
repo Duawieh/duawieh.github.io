@@ -1,6 +1,6 @@
 @font-face {
     font-family: ZCOOLKuaiLe;
-    src: url("../fonts/ZCOOLKuaiLe-Regular.ttf");
+    src: url("https//duawieh.github.io/styles_fonts/ZCOOLKuaiLe-Regular.ttf");
 }
 
 .AboutpageInfo {
@@ -27,6 +27,17 @@
     color: #9060ff;
     font-size: larger;
     margin-left: 2%;
+}
+
+/* 模糊背景 效果层 */
+#blurLayer {
+    z-index: 3;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* 由Javascript操控的部分 */
+    visibility: hidden;
+    backdrop-filter: blur(0px);
 }
 
 #homepageAboutButtonAppear {
