@@ -1,5 +1,2 @@
-$.getJSON("https://contents/blogs/config.json", function(data) {
-    $.each(data, function(i, info) {
-        lst[i] = info;
-    });
-});
+// 读取 json 配置文件，获取 content 列表
+$.getJSON("https://contents/blogs/config.json", function(data) { lst_source = data; });

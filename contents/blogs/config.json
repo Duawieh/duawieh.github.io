@@ -1,18 +1,10 @@
 [
     {
-        "title": "",
-        "subtitle": "",
-        "cover": "",
-        "date": "",
-        "tags": ["", "", ""],
-        "url": ""
-    },
-    {
         "title": "【站务公告】建站公告",
         "subtitle": "喜大普奔！Duawieh Space 地址公开！正式开始使用啦！在这里用第一篇博客做一个建站公告，声明一下本站的规则。",
         "cover": null,
         "date": "2023.08.01 | 21:32",
-        "tags": ["站务"],
+        "tags": ["站务", "通知"],
         "url": "https://contents/blogs/2301012132.md"
     }
 ]
