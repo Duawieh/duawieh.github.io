@@ -32,7 +32,7 @@ function refresh(checked_tag, checked_name) {
         });
     }
 
-    if (checked_tag.size) {
+    if (checked_tag.length) {
         $.each(list, function(i, info) {
             let flg = false;
             $.each(info.tags, function(j, jnfo) {

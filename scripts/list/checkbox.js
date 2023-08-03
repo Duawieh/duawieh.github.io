@@ -1,12 +1,13 @@
 var CHECKBOX = document.getElementById("listpageCheckbox");
 
 function CTRL_tagCheck(btn) {
+    let _tag = btn.id.substring(4, btn.id.length);
     if (getComputedStyle(btn).borderStyle == "solid") {
         btn.style.borderStyle = "none";
-        Set_checked_tag.delete(btn.id);
+        Set_checked_tag.delete(_tag);
     } else {
         btn.style.borderStyle = "solid";
-        Set_checked_tag.add(btn.id);
+        Set_checked_tag.add(_tag);
     }
     refresh(Array.from(Set_checked_tag), String_checked_name);
     return;

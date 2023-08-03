@@ -70,12 +70,16 @@
 }
 
 .ListpageShowcaseTextcase {
-    position: absolute;
+    position: relative;
     overflow: hidden;
-    top: 12%;
-    right: 3%;
-    width: 73%;
-    height: 75%;
+    top: 5%;
+    left: 3%;
+    width: 75%;
+    height: 90%;
+}
+
+.ListpageShowcaseCover, .ListpageShowcaseTextcase {
+    float: left;
 }
 
 .ListpageShowcaseTitle {
