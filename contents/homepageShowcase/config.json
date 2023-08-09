@@ -1,15 +1,15 @@
 [
     {
-        "title": "【测试主题】中央展示板主题", 
-        "subtitle": "【测试副主题】中央展示板副标题/简介缩略区域，测试文本", 
-        "url": "https://duawieh.github.io/content/0000000000",
+        "title": "【站务公告】喜大普奔！Duawieh Space 正式开放使用！", 
+        "subtitle": "正式开始使用啦！在这里用开放访问后的第一篇博客做一个建站公告，声明一下本站的规则。", 
+        "url": "https://duawieh.github.io/content?blg2308012132",
         "cover": null
     },
     {
-        "title": "【测试主题】左侧展示板主题", 
-        "subtitle": "【测试副主题】左侧展示板副标题/简介缩略区域，测试文本", 
-        "url": "https://duawieh.github.io/content/0000000000",
-        "cover": null
+        "title": "经验之谈：只要开始去做，事情就不会像看起来那么难。", 
+        "subtitle": "历时三周，Duawieh Space 的主体已经开发完成啦！接下来就是不断地维护与更新，这里发布一篇博客，作为发布前最后的测试文本。", 
+        "url": "https://duawieh.github.io/content?blg2308021954",
+        "cover": "https://pic.imgdb.cn/item/64cb03b71ddac507ccbccb2f.png"
     },
     {
         "title": "【测试主题】右侧展示板主题", 
