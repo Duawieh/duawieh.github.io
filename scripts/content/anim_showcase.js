@@ -35,7 +35,7 @@ function CTRL_SightLeave() {
 }
 
 function ANIM_appear(delta_t) {
-    opc += GENERATOR_tween(0.8, 300, delta_t);
+    opc += GENERATOR_tween(0.9, 300, delta_t);
     blr += GENERATOR_tween(10, 300, delta_t);
     if (opc >= 1.0) opc = 1.0;
     if (blr >= 10) blr = 10;
@@ -45,11 +45,11 @@ function ANIM_appear(delta_t) {
 }
 
 function ANIM_disappear(delta_t) {
-    opc -= GENERATOR_tween(0.8, 300, delta_t);
+    opc -= GENERATOR_tween(0.9, 300, delta_t);
     blr -= GENERATOR_tween(10, 300, delta_t);
-    if (opc <= 0.2) opc = 0.2;
+    if (opc <= 0.1) opc = 0.1;
     if (blr <= 0.0) blr = 0.0;
-    if (opc <= 0.2 && blr <= 0.0) disappear = false;
+    if (opc <= 0.1 && blr <= 0.0) disappear = false;
     refresh();
     return;
 }
