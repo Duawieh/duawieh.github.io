@@ -1,4 +1,4 @@
-var content_path = window.URL.search;
+var content_path = Window.URL.search;
 console.log(content_path);
 content_path = './' + content_path.substring(1, content_path.length);
 console.log(content_path);
