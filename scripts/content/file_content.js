@@ -1,5 +1,7 @@
-// var _path = window.URL.search;
-// _path = './' + _path.substring(1, _path.length);
-// console.log(_path);
+var content_path = window.URL.search;
+content_path = './' + content_path.substring(1, content_path.length);
+console.log(content_path);
 
-var _path = "content/"
+$.get(content_path, function(md) {
+    $("#contentpageMain").html(marked(md));
+});
