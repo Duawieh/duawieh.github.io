@@ -3,6 +3,10 @@
     src: url("https://duawieh.github.io/styles_fonts/ZCOOLKuaiLe-Regular.ttf");
 }
 
+a {
+    color: #55ffbb;
+}
+
 .ContentpageInfo {
     font-family: 'Courier New', Courier, monospace;
     color: #55ffbb;
