@@ -6,10 +6,10 @@ var _back = content.cover;
 
 $.get(_url, function(md) {
     document.getElementById("contentpageMainText").innerHTML = marked.parse(md);
-    // hljs.initHighlightingOnLoad();  // 高亮代码块
     var codes = document.getElementsByTagName("code");
     $.each(codes, function(i, info) {
         let parent = info.parentNode;
+        console.log(parent.tagName);
         if (parent.tagName == "pre") {
             hljs.highlightBlock(info);
         } else {
