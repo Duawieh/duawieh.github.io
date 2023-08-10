@@ -2,10 +2,6 @@
 
 ---
 
-[TOC]
-
----
-
 ## About the Site
 
 Building with Github Pages, the site is built and deployed from this repository.
@@ -20,7 +16,7 @@ As a static site, every refresh will happen after a latest push.
 
 作为一个静态站点，每次刷新都会在最新推送之后发生。
 
-**网站主题由 Duawieh 原创。**您应该在 fork 这个 repo 来建立您的网站时注明这一点。
+**网站主题由 Duawieh 原创。** 您应该在 fork 这个 repo 来建立您的网站时注明这一点。
 
 **注意！** 如果您想获得正常的访问体验，您应该保持您的浏览器版本在 IE8 之后。此外，您应该保持您的互联网连接畅通，并在必要时使用 VPN。
 
