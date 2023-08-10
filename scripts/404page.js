@@ -1,9 +1,13 @@
-var last_t;
-var background = document.getElementById("background");
-var button = document.getElementById("button_return");
+var last_t, background, button;
 
-last_t = performance.now();
-requestAnimationFrame(callback);
+function RUN() {
+    background = document.getElementById("background");
+    button = document.getElementById("button_return");
+
+    last_t = performance.now();
+    requestAnimationFrame(callback);
+    return;
+}
 
 
 // 数据类型转换函数：从css样式获取的末尾带有单位"px"的字符串转化为 Number 类型
