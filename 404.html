@@ -19,5 +19,13 @@
     </body>
 
     <script src="https://duawieh.github.io/scripts/404page.js" type="text/javascript"></script>
-    <script src="./scripts/file_url.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        const URL_ROOT = window.location.host;
+        var link_from_root = document.getElementsByClassName("LinkFromRoot");
+        $.each(link_from_root, function(i, info) {
+            info.href = URL_ROOT;
+        });
+    </script>
+    
 </html>
