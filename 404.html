@@ -6,20 +6,6 @@
         <title>Page Not Found</title>
     </head>
 
-    <link rel="stylesheet" id="quote_404page_css" type="text/css"/>
-
-    <body>
-        <p id="text"><strong>There is nothing here!</strong><br/>(Error.404)</p>
-        <p id="subtext">The URL you have requested is not exist.<br/>Please check it and try it again.
-            <br/>And also, welcome to visit our <a class="LinkFromRoot" href="index" style="color: #55ffbb;">homepage</a>.
-        </p>
-        <img id="background"/>
-        <img id="sign"/>
-        <a class="LinkFromRoot" href="index"><button id="button_return">Return To Home</button></a>
-    </body>
-
-    <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-    <script id="quote_404page_js" type="text/javascript"></script>
     <script type="text/javascript">
         const URL_ROOT = window.location.host;
         var link_from_root = document.getElementsByClassName("LinkFromRoot");
@@ -35,5 +21,20 @@
         elm = document.getElementById("quote_404page_js");
         eml.src = "https://" + URL_ROOT + "/scripts/404page.js";
     </script>
+
+    <link rel="stylesheet" id="quote_404page_css" type="text/css"/>
+
+    <body>
+        <p id="text"><strong>There is nothing here!</strong><br/>(Error.404)</p>
+        <p id="subtext">The URL you have requested is not exist.<br/>Please check it and try it again.
+            <br/>And also, welcome to visit our <a class="LinkFromRoot" href="index" style="color: #55ffbb;">homepage</a>.
+        </p>
+        <img id="background"/>
+        <img id="sign"/>
+        <a class="LinkFromRoot" href="index"><button id="button_return">Return To Home</button></a>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+    <script id="quote_404page_js" type="text/javascript"></script>
 
 </html>
