@@ -7,7 +7,10 @@ var _back = content.cover;
 $.get(_url, function(md) {
     document.getElementById("contentpageMainText").innerHTML = marked.parse(md);
     // hljs.initHighlightingOnLoad();  // 高亮代码块
-    hljs.highlightBlock(document.getElementsByTagName("code"));
+    var codes = document.getElementsByTagName("code");
+    $.each(codes, function(i, info) {
+        hljs.highlightBlock(info);
+    });
 });
 
 document.getElementById("contentpageSubpanelTitle").innerHTML = _title;
