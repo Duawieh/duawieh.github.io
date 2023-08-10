@@ -24,8 +24,11 @@
         const URL_ROOT = window.location.host;
         var link_from_root = document.getElementsByClassName("LinkFromRoot");
         $.each(link_from_root, function(i, info) {
+            console.log(i);
+            console.log(info.href);
             info.href = URL_ROOT;
+            console.log(info.href);
         });
     </script>
-    
+
 </html>
