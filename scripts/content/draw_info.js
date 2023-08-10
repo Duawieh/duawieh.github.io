@@ -6,7 +6,7 @@ var _back = content.cover;
 
 $.get(_url, function(md) {
     document.getElementById("contentpageMainText").innerHTML = marked.parse(md);
-    hljs.initHighlightingOnLoad();
+    hljs.initHighlightingOnLoad();  // 高亮代码块
 });
 
 document.getElementById("contentpageSubpanelTitle").innerHTML = _title;
