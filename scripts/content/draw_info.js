@@ -6,6 +6,8 @@ var _back = content.cover;
 
 $.get(_url, function(md) {
     document.getElementById("contentpageMainText").innerHTML = marked.parse(md);
+    
+    // 代码块（行内代码）高亮
     var codes = document.getElementsByTagName("code");
     $.each(codes, function(i, info) {
         let parent = info.parentNode;
