@@ -1,5 +1,14 @@
 [
     {
+        "index": "blg2308101844",
+        "title": "用我的 DuaCatPalette theme 搭建网站",
+        "subtitle": "本站所使用的主题 DuaCatPalette 是一个原创主题，设计之初就是为了开源共享而编写的，其中预留的接口可以帮助用户进行客制化。",
+        "cover": "https://pic.imgdb.cn/item/64c3780e1ddac507cc32ef45.png",
+        "date": "2023.08.10 | 19:14",
+        "tags": ["站务"],
+        "url": "contents/blogs/2308101844.md"
+    },
+    {
         "index": "blg2308012132",
         "title": "【站务公告】喜大普奔！Duawieh Space 正式开放使用！",
         "subtitle": "正式开始使用啦！在这里用开放访问后的第一篇博客做一个建站公告，声明一下本站的规则。",
@@ -14,7 +23,7 @@
         "subtitle": "历时三周，Duawieh Space 的主体已经开发完成啦！接下来就是不断地维护与更新，这里发布一篇博客，作为发布前最后的测试文本。",
         "cover": "https://pic.imgdb.cn/item/64cb03b71ddac507ccbccb2f.png",
         "date": "2023.08.09 | 16:34",
-        "tags": ["life","杂谈","日志"],
+        "tags": ["杂谈","日志"],
         "url": "contents/blogs/2308021954.md"
     }
 ]
