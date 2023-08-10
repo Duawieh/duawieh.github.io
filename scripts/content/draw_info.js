@@ -9,7 +9,12 @@ $.get(_url, function(md) {
     // hljs.initHighlightingOnLoad();  // 高亮代码块
     var codes = document.getElementsByTagName("code");
     $.each(codes, function(i, info) {
-        hljs.highlightBlock(info);
+        let parent = info.parentNode;
+        if (parent.tagName == "pre") {
+            hljs.highlightBlock(info);
+        } else {
+            info.className = "InlineCode";
+        }
     });
 });
 

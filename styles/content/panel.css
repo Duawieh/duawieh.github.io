@@ -25,6 +25,12 @@ a {
     margin-left: 1%;
 }
 
+.InlineCode {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: #55ffbb;
+}
+
 #contentpageMain {
     position: absolute;
     width: 70%;
