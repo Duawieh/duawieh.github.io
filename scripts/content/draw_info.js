@@ -9,7 +9,6 @@ $.get(_url, function(md) {
     var codes = document.getElementsByTagName("code");
     $.each(codes, function(i, info) {
         let parent = info.parentNode;
-        console.log(parent.tagName);
         if (parent.tagName == "PRE") {
             hljs.highlightBlock(info);
         } else {
