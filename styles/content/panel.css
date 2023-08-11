@@ -2,6 +2,10 @@
     font-family: ZCOOLKuaiLe;
     src: url("https://duawieh.github.io/styles_fonts/ZCOOLKuaiLe-Regular.ttf");
 }
+@font-face {
+    font-family: IBM_Plex_Mono;
+    src: url("./styles_fonts/IBMPlexMonoDefault.tff");
+}
 
 a {
     color: #55ffbb;
@@ -26,11 +30,11 @@ a {
 }
 
 .InlineCode {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM_Plex_Mono', 'Courier New', Courier, monospace;
     /* 此处的背景颜色取自 highlight.js 的代码块背景色 */
     background-color: #1e1e1e;
     /* 为了保证行内代码的醒目以及与代码块的一致，字体色取自 highlight.js 的代码字体色 */
-    color: #c8c8c8;
+    color: #ffffff;
 }
 
 #contentpageMain {
