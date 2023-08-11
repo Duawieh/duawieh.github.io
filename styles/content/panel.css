@@ -32,7 +32,7 @@ a {
     /* 此处的背景颜色取自 highlight.js 的代码块背景色 */
     background-color: #1e1e1e;
     /* 为了保证行内代码的醒目以及与代码块的一致，字体色取自 highlight.js 的代码字体色 */
-    color: #ffffff;
+    color: #dcdcdc;
     font-size: 85%;
 }
 
