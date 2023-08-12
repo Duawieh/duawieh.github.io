@@ -9,6 +9,15 @@ a {
     color: #55ffbb;
 }
 
+code {
+    font-family: 'IBM_Plex_Mono', 'Courier New', Courier, monospace;
+    /* 此处的背景颜色取自 highlight.js 的代码块背景色 */
+    background-color: #22272e;
+    /* 为了保证行内代码的醒目以及与代码块的一致，字体色取自 highlight.js 的代码字体色 */
+    color: #f47067;
+    font-size: 85%;
+}
+
 .ContentpageInfo {
     font-family: 'Courier New', Courier, monospace;
     color: #55ffbb;
@@ -25,15 +34,6 @@ a {
     font-family: 'ZCOOLKuaiLe';
     color: #9060ff;
     margin-left: 1%;
-}
-
-.InlineCode {
-    font-family: 'IBM_Plex_Mono', 'Courier New', Courier, monospace;
-    /* 此处的背景颜色取自 highlight.js 的代码块背景色 */
-    background-color: #1e1e1e;
-    /* 为了保证行内代码的醒目以及与代码块的一致，字体色取自 highlight.js 的代码字体色 */
-    color: #dcdcdc;
-    font-size: 85%;
 }
 
 #contentpageMain {
