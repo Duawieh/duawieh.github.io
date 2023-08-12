@@ -12,9 +12,9 @@
         "cover": "https://pic.imgdb.cn/item/64cb03b71ddac507ccbccb2f.png"
     },
     {
-        "title": "【站务公告】Duawieh Space 正式开放！", 
-        "subtitle": "正式开始使用啦！在这里用开放访问后的第一篇博客做一个建站公告，声明一下本站的规则。", 
-        "url": "https://duawieh.github.io/content?blg2308012132",
-        "cover": null
+        "title": "关于在 U3D 中获取重名对象列表的笔记", 
+        "subtitle": "在 U3D 中获取路径未知的所有 name 相同的对象，并返回 GameObject[] 列表的方法。", 
+        "url": "/contents/blogs/2308121356.md",
+        "cover": "https://pic.imgdb.cn/item/64d7229f1ddac507cc1aec13.webp"
     }
 ]
