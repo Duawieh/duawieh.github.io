@@ -12,13 +12,15 @@ $.get(_url, function(md) {
     $.each(codes, function(i, info) {
         let parent = info.parentNode;
         if (parent.tagName == "PRE") {
-            hljs.highlightBlock(info);
+            if (info.className == undefined) info.className = "InlineCode";
+            else hljs.highlightBlock(info);
         } else {
             info.className = "InlineCode";
         }
     });
 });
 
+document.getElementById("contentpageTitle").innerHTML = _title;
 document.getElementById("contentpageSubpanelTitle").innerHTML = _title;
 document.getElementById("contentpageSubpanelDate").innerHTML = _date;
 var string_tags = "";
