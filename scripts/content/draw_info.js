@@ -1,4 +1,4 @@
-var _url = "./" + content.url;
+var _url = "/" + content.url;
 var _tag = content.tags;
 var _title = content.title;
 var _date = content.date;
@@ -11,12 +11,8 @@ $.get(_url, function(md) {
     var codes = document.getElementsByTagName("code");
     $.each(codes, function(i, info) {
         let parent = info.parentNode;
-        if (parent.tagName == "PRE") {
+        if (parent.tagName == "PRE") 
             hljs.highlightBlock(info);
-        } 
-        // else {
-        //     info.className = "InlineCode";
-        // }
     });
 });
 
