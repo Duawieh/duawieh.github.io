@@ -1,11 +1,11 @@
 [
     {
         "index": "prj2308101844",
-        "title": "DuaCatPalette theme 主题",
-        "subtitle": "本站所使用的主题 DuaCatPalette 是一个原创主题，设计之初就是为了开源共享而编写的，其中预留的接口可以帮助用户进行客制化，这里提供了主题信息的配置方法。",
+        "title": "DuaCatPalette 主题",
+        "subtitle": "本站所使用的主题 DuaCatPalette theme 是一个原创主题，设计之初就是为了开源共享而编写的，其中预留的接口可以帮助用户进行客制化，这里提供了主题信息的配置方法。",
         "cover": "https://pic.imgdb.cn/item/64c3780e1ddac507cc32ef45.png",
         "date": "2023.08.13 | 21:06",
-        "tags": ["站务"],
+        "tags": ["网页前端", "theme"],
         "url": "contents/projects/2308132106.md"
     }
 ]
