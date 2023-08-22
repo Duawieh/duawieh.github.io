@@ -1,5 +1,14 @@
 [
     {
+        "index": "blg2308221341",
+        "title": "在 C# 中不通过实例化对象调用其他类的成员函数",
+        "subtitle": "为保证代码的可读性，我们可能面临将函数声明在类内的情况但调用却在类外的情况，如果函数的内容与对象无关，此时可以选择使用静态函数。",
+        "cover": "https://pic.imgdb.cn/item/64e44e56661c6c8e54ab3ec8.png",
+        "date": "2023.08.22 | 13:41",
+        "tags": ["C#", "unity3D"],
+        "url": "contents/blogs/2308221341.md"
+    },
+    {
         "index": "blg2308121356",
         "title": "关于在 unity3D 中获取多个重名对象的笔记",
         "subtitle": "在 U3D 中获取路径未知的所有 name 相同的对象，并返回 GameObject[] 列表的方法。",
