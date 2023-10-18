@@ -1,5 +1,14 @@
 [
     {
+        "index": "blg2309271923",
+        "title": "在 Android 平台下复制和加载 StreamingAssets 中的图片资源",
+        "subtitle": "新版的 unity 弃用了 WWW 类，所以我们需要用 UnityWebRequest 类来进行文件操作。由于 Android 平台对于文件管理的权限与 PC 平台不同，这导致我们需要先将 StreamingAssets 文件夹中的文件复制到 persistentDataPath 下再进行加载。",
+        "cover": "https://pic.imgdb.cn/item/64d7229f1ddac507cc1aec13.webp",
+        "date": "2023.09.27 | 22:54",
+        "tags": ["C#", "Android开发", "文件操作", "unity3D"],
+        "url": "contents/blogs/2309271923.md"
+    },
+    {
         "index": "blg2309071049",
         "title": "你好，兰大。",
         "subtitle": "更新一波开学这几天拍摄的照片，这个照片集错过了很多精彩的时刻，但也同样抓住了不少令人惊喜的瞬间。",

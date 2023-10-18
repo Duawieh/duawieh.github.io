@@ -1,8 +1,8 @@
 [
     {
-        "title": "原创主题 DuaCatPalette theme 发布", 
-        "subtitle": "本站所使用的主题 DuaCatPalette 是一个原创主题，设计之初就是为了开源共享而编写的，其中预留的接口可以帮助用户进行客制化。", 
-        "index": "blg2308101844"
+        "title": "在 Android 平台下使用 UnityWebRequest 加载 StreamingAssets 中的图片", 
+        "subtitle": "新版的 unity 弃用了 WWW 类，所以我们需要用 UnityWebRequest 类来进行文件操作。由于 Android 平台对于文件管理的权限与 PC 平台不同，这导致我们需要先将 StreamingAssets 文件夹中的文件复制到 persistentDataPath 下再进行加载。", 
+        "index": "blg2309271923"
     },
     {
         "title": "你好，兰大。", 
@@ -10,8 +10,8 @@
         "index": "blg2309071049"
     },
     {
-        "title": "关于在 U3D 中获取重名对象列表的笔记", 
-        "subtitle": "在 U3D 中获取路径未知的所有 name 相同的对象，并返回 GameObject[] 列表的方法。", 
-        "index": "blg2308121356"
+        "title": "原创主题 DuaCatPalette theme 发布", 
+        "subtitle": "本站所使用的主题 DuaCatPalette 是一个原创主题，设计之初就是为了开源共享而编写的，其中预留的接口可以帮助用户进行客制化。", 
+        "index": "blg2308101844"
     }
 ]
